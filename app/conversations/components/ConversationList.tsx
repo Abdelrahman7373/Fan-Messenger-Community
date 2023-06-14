@@ -17,7 +17,6 @@ interface ConversationListProps {
   initialItems: FullConversationType[];
   users: User[];
   title?: string;
-  currentUser: User;
 }
 
 const CoversationList:React.FC<ConversationListProps> = ({initialItems,users}) => {
